@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAVn//+Nk\u003d",
+        "filename": "res/values-nl/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 2248
+      },
+      "writtenOn": "2012-08-05T00:58:03Z",
+      "side": 1,
+      "message": "\"Druk op...\"?",
+      "revId": "49ef4b9320b08ef1d81330e735bca4fac8e5c8a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
