@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX///p0\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-03-06T04:02:49Z",
+      "side": 1,
+      "message": "A PKCS12 file contains a private key and the certificate, meaning this change is incorrect\n\nhttp://fr.wikipedia.org/wiki/PKCS12",
+      "revId": "9e1ccc3798ceb52a1ffcdf5faa4126a80a2fa124",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
