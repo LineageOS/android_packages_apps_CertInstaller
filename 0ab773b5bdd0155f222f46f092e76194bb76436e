@@ -72,6 +72,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAeX///No\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 5765
+      },
+      "writtenOn": "2013-03-07T06:57:24Z",
+      "side": 1,
+      "message": "Idem ;\n\nLe terme le plus correct est : \"magasin de clés\".\n\nC\u0027est même ce que Google utilise : http://support.google.com/android/bin/answer.py?hl\u003dfr\u0026answer\u003d1649774",
+      "parentUuid": "AAAAeX///T4\u003d",
+      "revId": "0ab773b5bdd0155f222f46f092e76194bb76436e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAeX///Ug\u003d",
         "filename": "res/values-fr/strings.xml",
         "patchSetId": 2
