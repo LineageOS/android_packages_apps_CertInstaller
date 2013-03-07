@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAeX///SE\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-07T04:21:39Z",
+      "side": 1,
+      "message": "Je suis pas expert mais il me semble que le terme est \"catalogue\", \"Extraire du catalogue de clés PKC12\"",
+      "parentUuid": "AAAAeX///UY\u003d",
+      "revId": "0ab773b5bdd0155f222f46f092e76194bb76436e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAeX///T4\u003d",
         "filename": "res/values-fr/strings.xml",
         "patchSetId": 2
@@ -47,6 +65,24 @@
       "writtenOn": "2013-03-07T01:27:19Z",
       "side": 1,
       "message": "ça c\u0027est bizarre !\n\nImpossible de définir le but ???",
+      "revId": "0ab773b5bdd0155f222f46f092e76194bb76436e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAeX///R4\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-03-07T04:21:39Z",
+      "side": 1,
+      "message": "C\u0027est quoi le sens de cette phrase ?",
+      "parentUuid": "AAAAeX///Ug\u003d",
       "revId": "0ab773b5bdd0155f222f46f092e76194bb76436e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
