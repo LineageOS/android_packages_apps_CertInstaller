@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAeX//+9Q\u003d",
+        "filename": "res/values-fr/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 5596
+      },
+      "writtenOn": "2013-03-08T00:59:36Z",
+      "side": 1,
+      "message": "Why did you make this change : from \"Choisir\" to \"Sélectionnez\"?\nAll others titles are made from the infinitive.\nAs far as I\u0027m concerned I do prefer \"Choisir\", because \"to pick\" is a choice, can be replaced by \"Choose a ...\". And it was already like that. If a sentence is correct, then no need to change it.\n\nAnyways it\u0027s not a big deal, I wanted to give my point of view!",
+      "revId": "8467ee7ab0165288d55474b1c3583e35f6d50d21",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
