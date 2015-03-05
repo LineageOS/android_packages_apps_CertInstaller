@@ -16,6 +16,24 @@
       "revId": "abbd4d6280d843b59cb9eb041387881517b5c9cd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad45d7e_4925d8c0",
+        "filename": "src/com/android/certinstaller/CertInstaller.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 68
+      },
+      "writtenOn": "2015-03-05T03:05:19Z",
+      "side": 1,
+      "message": "I\u0027d rather leave it be, since it\u0027s an upstream change, we can fix it but it\u0027ll bring some merge pains later on.",
+      "parentUuid": "9ad45d7e_e9480c8a",
+      "revId": "abbd4d6280d843b59cb9eb041387881517b5c9cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
