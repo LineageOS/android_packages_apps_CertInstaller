@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad45d7e_e9480c8a",
+        "filename": "src/com/android/certinstaller/CertInstaller.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 10984
+      },
+      "writtenOn": "2015-03-05T03:00:42Z",
+      "side": 1,
+      "message": "typo",
+      "revId": "abbd4d6280d843b59cb9eb041387881517b5c9cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
