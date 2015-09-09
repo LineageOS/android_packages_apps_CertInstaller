@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_616328de",
+        "filename": "src/com/android/certinstaller/CertInstaller.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-09-09T04:11:52Z",
+      "side": 1,
+      "message": "I\u0027m assuming something in this line is what\u0027s actually throwing the exception?",
+      "revId": "463ca68e258613bf3fd0f2eb0be0c888995068bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_c1743c9c",
+        "filename": "src/com/android/certinstaller/CertInstaller.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 245,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-09-09T04:11:52Z",
+      "side": 1,
+      "message": "Maybe warning here instead?",
+      "revId": "463ca68e258613bf3fd0f2eb0be0c888995068bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
