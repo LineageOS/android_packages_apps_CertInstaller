@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "3f1d235d_41b5cc30",
+        "filename": "src/com/android/certinstaller/CertInstaller.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 13691
+      },
+      "writtenOn": "2015-09-09T04:19:20Z",
+      "side": 1,
+      "message": "Yes, this is the line.",
+      "parentUuid": "3f1d235d_616328de",
+      "revId": "463ca68e258613bf3fd0f2eb0be0c888995068bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f1d235d_c1743c9c",
         "filename": "src/com/android/certinstaller/CertInstaller.java",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2015-09-09T04:11:52Z",
       "side": 1,
       "message": "Maybe warning here instead?",
+      "revId": "463ca68e258613bf3fd0f2eb0be0c888995068bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_e17df86e",
+        "filename": "src/com/android/certinstaller/CertInstaller.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 245,
+      "author": {
+        "id": 13691
+      },
+      "writtenOn": "2015-09-09T04:19:20Z",
+      "side": 1,
+      "message": "Agreed. Stand by.",
+      "parentUuid": "3f1d235d_c1743c9c",
       "revId": "463ca68e258613bf3fd0f2eb0be0c888995068bf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
