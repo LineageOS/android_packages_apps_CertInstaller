@@ -40,4 +40,5 @@
   <!-- Usage type for a credential that the user is installing. The label will restrict the
          type of use for that credential. [CHAR LIMIT=40] -->
   <!-- Toast message to be displayed when installing Hotspot 2.0 credentials [CHAR LIMIT=40] -->
+  <string name="wifi_dismiss_label">Wfftio</string>
 </resources>
