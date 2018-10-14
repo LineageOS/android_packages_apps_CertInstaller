@@ -39,7 +39,6 @@
   <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
   <string name="one_cacrt">un certificáu de CA</string>
   <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE]-->
-  <string name="n_cacrts">%d certificaos de CA</string>
   <string name="password_error">Teclexa la contraseña correuta.</string>
   <string name="password_empty_error">Teclexa la contraseña.</string>
   <string name="name_empty_error">Teclexa un nome.</string>
