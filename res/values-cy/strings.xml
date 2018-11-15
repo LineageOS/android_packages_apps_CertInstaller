@@ -24,8 +24,10 @@
     <!-- Title of the credential info -->
     <!-- Description for the credential password input box -->
     <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
+    <string name="one_userkey">un allwedd defnyddiwr</string>
     <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
     <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
+    <string name="one_cacrt">un dystysgrif CA</string>
     <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE]-->
     <!-- toast message -->
     <!-- toast message -->
