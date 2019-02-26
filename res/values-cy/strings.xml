@@ -32,6 +32,7 @@
     <!-- Description for the credential password input box -->
     <string name="credential_password">Rho\'r cyfrinair i echdynnu\'r tystysgrifau.</string>
     <string name="credential_info">Mae\'r pecyn yn cynnwys:</string>
+    <string name="p12_description">Tystysgrifau yn stôr allweddau PKCS12.</string>
     <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
     <string name="one_userkey">un allwedd defnyddiwr</string>
     <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
@@ -76,6 +77,7 @@
     </string-array>
     <!-- Explain that the issuer of the CA certificate that is about to be installed can inspect
          all of the traffic of the device. -->
+    <string name="certificate_capabilities_warning">Nodyn: Mae\'n bosib gall gyhoeddwr y dystysgrif hon archwilio holl draffig i ac oddi wrth y ddyfais.</string>
     <string name="wifi_title">Proffil Wi-Fi</string>
     <string name="wifi_detail_title">Manylion ar gyfer %s</string>
     <string name="wifi_detail_label">Manylion</string>
@@ -83,12 +85,15 @@
     <!-- Toast message to be displayed when installing Hotspot 2.0 credentials [CHAR LIMIT=40] -->
     <string name="wifi_installing_label">Yn gosod</string>
     <string name="wifi_cancel_label">Diddymu</string>
-    <string name="wifi_dismiss_label">Wfftio</string>
+    <string name="wifi_dismiss_label">Diystyru</string>
     <string name="wifi_no_config">Dim</string>
+    <string name="wifi_config_text">Enw: %1$s\nFQDN: %2$s\nConsortia Crwydro: %3$s\nGwlad: %4$s\nDull dilysu: EAP-%5$s\n</string>
     <string name="wifi_ttls_config_text">Enw defnyddiwr: %s\n</string>
     <string name="wifi_tls_config_text">Tystysgrif cleient:\n%1$s\nAllwedd:%2$s\n</string>
     <string name="wifi_sim_config_text">SIM: %s\n</string>
-    <string name="install_done">Mae manylion <xliff:g id="name">%1$s</xliff:g> wedi eu hychwanegu i\'r rhwydweithiau Wi-Fi sydd wedi\'u cadw.</string>
+    <string name="wifi_trust_config_text">Tystysgrif ymddiredolaeth:\n%s\n</string>
+    <string name="install_done_title">Gosodwyd tyst-nodiadau</string>
+    <string name="install_done">Mae manylion <xliff:g id="name">%1$s</xliff:g> wedi eu hychwanegu i\'r rhwydweithiau Wi-Fi sydd wedi\'u cofio.</string>
     <string name="done_label">IAWN</string>
     <string name="wifi_installer_detail">Gosod manylion Wi-Fi er mwyn cysylltu i rwydweithiau sydd ar gael trwy <xliff:g id="name">%1$s</xliff:g>&#46;</string>
     <string name="wifi_installer_download_error">Mae gan y ffeil a lawrlwythwyd problemau ac nid yw\'n bosib ei gosod&#46; Sicrha dy fod yn lawrlwytho\'r ffeil o\'r ffynhonnell gywir&#46;</string>
