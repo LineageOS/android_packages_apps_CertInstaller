@@ -16,29 +16,18 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Gosodwr Tystysgrif</string>
-    <!-- Title of the file picker screen -->
     <string name="pick_file_title">Dewis tystysgrif</string>
-    <!-- Title of dialog to enter password for pkcs12 -->
     <string name="pkcs12_password_dialog_title">Echdynnu tystysgrif</string>
-    <!-- message in progress bar when waiting for extracting certs from a pkcs12 package -->
     <string name="extracting_pkcs12">Yn echdynnu\u2026</string>
-    <!-- Title of dialog to enter password for pkcs12 file -->
     <string name="pkcs12_file_password_dialog_title">Echdynnu o %s</string>
-    <!-- Title of dialog to name a credential -->
     <string name="name_credential_dialog_title">Rho enw i\'r dystysgrif</string>
-    <!-- Description for the credential name input box -->
     <string name="credential_name">Enw\'r dystysgrif:</string>
-    <!-- Title of the credential info -->
-    <!-- Description for the credential password input box -->
     <string name="credential_password">Rho\'r cyfrinair i echdynnu\'r tystysgrifau.</string>
     <string name="credential_info">Mae\'r pecyn yn cynnwys:</string>
-    <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
+    <string name="p12_description">Tystysgrifau yn stôr allweddau PKCS12.</string>
     <string name="one_userkey">un allwedd defnyddiwr</string>
-    <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
     <string name="one_usercrt">un dystysgrif defnyddiwr</string>
-    <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
     <string name="one_cacrt">un dystysgrif CA</string>
-    <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE]-->
     <string name="n_cacrts">%d tystysgrif CA</string>
     <string name="password_error">Rho\'r cyfrinair cywir.</string>
     <string name="password_empty_error">Rho\'r cyfrinair.</string>
@@ -48,28 +37,16 @@
     <string name="cert_not_saved">Dyw\'r dystysgrif heb ei gosod.</string>
     <string name="no_cert_to_saved">Dim tystysgrif i\'w gosod.</string>
     <string name="invalid_cert">Mae\'r dystysgrif yn annilys.</string>
-    <!-- toast message -->
     <string name="cert_is_added">Mae <xliff:g id="credential">%s</xliff:g> wedi\'i gosod.</string>
-    <!-- toast message -->
     <string name="cert_too_large_error">Methwyd â\'i gosod am fod maint y dystysgrif yn rhy fawr.</string>
-    <!-- toast message -->
     <string name="cert_missing_error">Methwyd â\'i gosod am na lwyddwyd dod o hyd i ffeil y dystysgrif.</string>
-    <!-- toast message -->
     <string name="cert_read_error">Methwyd â\'i gosod am na lwyddwyd darllen ffeil y dystysgrif.</string>
-    <!-- Shown when the certificate file can't be found.  [CHAR LIMIT=NONE] -->
     <string name="no_cert_file_found" product="nosdcard">Ni chanfuwyd ffeil tystysgrif yn y storfa USB.</string>
     <string name="no_cert_file_found" product="default">Ni chanfuwyd ffeil tystysgrif ar y cerdyn SD.</string>
-    <!-- Shown when USB storage can't be found to look for a certificate.  [CHAR LIMIT=30] -->
     <string name="sdcard_not_present" product="nosdcard">Dyw storfa USB ddim ar gael.</string>
     <string name="sdcard_not_present" product="default">Does dim cerdyn SD.</string>
-    <!-- Message displayed when a user other than the owner on a multi-user system tries to
-         install a certificate into the certificate store. [CHAR LIMIT=NONE] -->
     <string name="only_primary_user_allowed">Dim ond perchennog y ddyfais hon gall osod tystysgrifau.</string>
-    <!-- Label for spinner that shows the possible usage for a credential. Shown when user is
-         installing a credential [CHAR LIMIT=40] -->
     <string name="credential_usage_label">Defnydd tystysgrif:</string>
-    <!-- Usage type for a credential that the user is installing. The label will restrict the
-         type of use for that credential. [CHAR LIMIT=40] -->
     <string-array name="credential_usage">
         <item>VPN ac apiau</item>
         <item>Wi-Fi</item>
@@ -78,20 +55,22 @@
     <string name="wifi_detail_title">Manylion ar gyfer %s</string>
     <string name="wifi_detail_label">Manylion</string>
     <string name="wifi_install_label">Gosod</string>
-    <!-- Toast message to be displayed when installing Hotspot 2.0 credentials [CHAR LIMIT=40] -->
     <string name="wifi_installing_label">Yn gosod</string>
     <string name="wifi_cancel_label">Diddymu</string>
-    <string name="wifi_dismiss_label">Wfftio</string>
+    <string name="wifi_dismiss_label">Diystyru</string>
     <string name="wifi_no_config">Dim</string>
+    <string name="wifi_config_text">Enw: %1$s\nFQDN: %2$s\nConsortia Crwydro: %3$s\nGwlad: %4$s\nDull dilysu: EAP-%5$s\n</string>
     <string name="wifi_ttls_config_text">Enw defnyddiwr: %s\n</string>
     <string name="wifi_tls_config_text">Tystysgrif cleient:\n%1$s\nAllwedd:%2$s\n</string>
     <string name="wifi_sim_config_text">SIM: %s\n</string>
-    <string name="install_done">Mae manylion <xliff:g id="name">%1$s</xliff:g> wedi eu hychwanegu i\'r rhwydweithiau Wi-Fi sydd wedi\'u cadw.</string>
+    <string name="wifi_trust_config_text">Tystysgrif ymddiredolaeth:\n%s\n</string>
+    <string name="install_done_title">Gosodwyd tyst-nodiadau</string>
+    <string name="install_done">Mae manylion <xliff:g id="name">%1$s</xliff:g> wedi eu hychwanegu i\'r rhwydweithiau Wi-Fi sydd wedi\'u cofio.</string>
     <string name="done_label">IAWN</string>
-    <string name="wifi_installer_detail">Gosod manylion Wi-Fi er mwyn cysylltu i rwydweithiau sydd ar gael trwy <xliff:g id="name">%1$s</xliff:g>&#46;</string>
-    <string name="wifi_installer_download_error">Mae gan y ffeil a lawrlwythwyd problemau ac nid yw\'n bosib ei gosod&#46; Sicrha dy fod yn lawrlwytho\'r ffeil o\'r ffynhonnell gywir&#46;</string>
-    <string name="wifi_installer_fail">Methu â gosod manylion Wi-Fi&#46; Ceisia lawrlwytho\'r ffeil eto&#46;</string>
+    <string name="wifi_installer_detail">Gosod manylion Wi-Fi er mwyn cysylltu i rwydweithiau sydd ar gael trwy <xliff:g id="name">%1$s</xliff:g>.</string>
+    <string name="wifi_installer_download_error">Mae gan y ffeil a lawrlwythwyd problemau ac nid yw\'n bosib ei gosod. Sicrha dy fod yn lawrlwytho\'r ffeil o\'r ffynhonnell gywir.</string>
+    <string name="wifi_installer_fail">Methu â gosod manylion Wi-Fi. Ceisia lawrlwytho\'r ffeil eto.</string>
     <string name="wifi_installer_fail_no_wifi_title">Diddymwyd gosod</string>
     <string name="wifi_installer_fail_title">Methu â\'i gosod</string>
-    <string name="wifi_installer_fail_no_wifi">Troi Wi-Fi ymlaen a cheisio eto&#46;</string>
+    <string name="wifi_installer_fail_no_wifi">Troi Wi-Fi ymlaen a cheisio eto.</string>
 </resources>
