@@ -51,6 +51,7 @@
         <item>VPN y aplicaciones</item>
         <item>Wi-Fi</item>
     </string-array>
+    <string name="certificate_capabilities_warning">Nota: L\'emisor d\'esti certificáu puede inspeccionar tol tráficu haza y desde\'l to preséu.</string>
     <string name="wifi_title">Perfil Wi-Fi</string>
     <string name="wifi_detail_title">Detalles pa %s</string>
     <string name="wifi_detail_label">Detalles</string>
@@ -66,6 +67,7 @@
     <string name="wifi_trust_config_text">Certificáu d\'enfotu:\n%s\n</string>
     <string name="install_done_title">Instaláronse les credenciales</string>
     <string name="done_label">FECHO</string>
+    <string name="wifi_installer_detail">Instala credenciales Wi-Fi pa coneutate a les redes disponibles per aciu de <xliff:g id="name">%1$s</xliff:g>.</string>
     <string name="wifi_installer_fail_no_wifi_title">Encaboxóse la instalación</string>
     <string name="wifi_installer_fail_title">Nun pue instalase</string>
 </resources>
