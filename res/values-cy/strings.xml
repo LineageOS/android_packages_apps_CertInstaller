@@ -50,7 +50,7 @@
         <item>VPN ac apiau</item>
         <item>Wi-Fi</item>
     </string-array>
-    <string name="certificate_capabilities_warning">Nodyn: Mae\'n bosib gall gyhoeddwr y dystysgrif hon archwilio holl draffig i ac oddi wrth y ddyfais.</string>
+    <string name="certificate_capabilities_warning">Noder: Mae\'n bosib gall gyhoeddwr y dystysgrif hon archwilio holl draffig i ac oddi wrth y ddyfais.</string>
     <string name="wifi_title">Proffil Wi-Fi</string>
     <string name="wifi_detail_title">Manylion ar gyfer %s</string>
     <string name="wifi_detail_label">Manylion</string>
