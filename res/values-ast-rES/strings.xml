@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Instalador de certificaos</string>
+    <string name="pick_file_title">Escoyeta de certificáu</string>
+    <string name="pkcs12_password_dialog_title">Estaición del certificáu</string>
+    <string name="extracting_pkcs12">Estrayendo\u2026</string>
+    <string name="pkcs12_file_password_dialog_title">Estraición dende %s</string>
+    <string name="credential_password">Teclexa la contraseña pa estrayer los certificaos.</string>
+    <string name="credential_info">El paquete contién:</string>
+    <string name="p12_description">Certificaos nel almacén de claves PKCS12.</string>
+    <string name="one_userkey">una clave d\'usuariu</string>
+    <string name="one_usercrt">un certificáu d\'usuariu</string>
+    <string name="one_cacrt">un certificáu de CA</string>
+    <string name="n_cacrts">%d certificaos de CA</string>
+    <string name="password_error">Teclexa la contraseña correuta.</string>
+    <string name="password_empty_error">Teclexa la contraseña.</string>
+    <string name="name_empty_error">Teclexa un nome.</string>
+    <string name="name_char_error">Teclexa un nome que contenga namái lletres y númberos.</string>
+    <string name="unable_to_save_cert">Nun pudo guardase\'l certificáu. L\'almacenamientu de credenciales nun ta activáu o nun s\'anició afayadizamente.</string>
+    <string name="cert_not_saved">El certificáu nun ta instaláu.</string>
+    <string name="no_cert_to_saved">Nun hai certificaos pa instalar.</string>
+    <string name="invalid_cert">El certificáu nun ye válidu.</string>
+    <string name="cert_too_large_error">Nun pudo instalase porque\'l tamañu del certificáu ye pergrande.</string>
+    <string name="cert_missing_error">Nun pudo instalase porque nun s\'allugó\'l ficheru de certificáu.</string>
+    <string name="cert_read_error">Nun pudo instalase porque nun pudo lleese\'l ficheru del certificáu.</string>
+    <string name="only_primary_user_allowed">Namái\'l dueñu d\'esti preséu pue instalar certificaos.</string>
+    <string name="credential_usage_label">Usu de credenciales:</string>
+    <string-array name="credential_usage">
+        <item>VPN y aplicaciones</item>
+        <item>Wi-Fi</item>
+    </string-array>
+    <string name="certificate_capabilities_warning">Nota: L\'emisor d\'esti certificáu puede inspeccionar tol tráficu haza y desde\'l to preséu.</string>
+    <string name="wifi_title">Perfil Wi-Fi</string>
+    <string name="wifi_detail_title">Detalles pa %s</string>
+    <string name="wifi_detail_label">Detalles</string>
+    <string name="wifi_install_label">Instalar</string>
+    <string name="wifi_installing_label">Instalando</string>
+    <string name="wifi_cancel_label">Encaboxar</string>
+    <string name="wifi_dismiss_label">Escartar</string>
+    <string name="wifi_no_config">Nenguna</string>
+    <string name="wifi_config_text">Nome: %1$s\nFQDN: %2$s\nRoaming Consortiums: %3$s\nRealm: %4$s\nMétodu d\'autenticación: EAP-%5$s\n</string>
+    <string name="wifi_ttls_config_text">Nome d\'usuariu: %s\n</string>
+    <string name="wifi_tls_config_text">Certificáu del veceru:\n%1$s\nClave: %2$s\n</string>
+    <string name="wifi_sim_config_text">SIM: %s\n</string>
+    <string name="wifi_trust_config_text">Certificáu d\'enfotu:\n%s\n</string>
+    <string name="install_done_title">Instaláronse les credenciales</string>
+    <string name="done_label">FECHO</string>
+    <string name="wifi_installer_detail">Instala credenciales Wi-Fi pa coneutate a les redes disponibles per aciu de <xliff:g id="name">%1$s</xliff:g>.</string>
+    <string name="wifi_installer_fail_no_wifi_title">Encaboxóse la instalación</string>
+    <string name="wifi_installer_fail_title">Nun pue instalase</string>
+</resources>

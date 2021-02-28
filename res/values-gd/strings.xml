@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Stàlaichear nan teisteanasan</string>
+    <string name="pick_file_title">Tagh teisteanas</string>
+    <string name="pkcs12_password_dialog_title">Às-tharraing an teisteanas</string>
+    <string name="extracting_pkcs12">’Ga tharraing às…</string>
+    <string name="pkcs12_file_password_dialog_title">Às-tharraing o %s</string>
+    <string name="credential_password">Cuir a-steach am facal-faire airson na teisteanasan às-tharraing.</string>
+    <string name="credential_info">Seo na tha sa phacaid:</string>
+    <string name="p12_description">Teisteanasan san stòras-iuchrach PKCS12.</string>
+    <string name="one_userkey">iuchair cleachdaiche</string>
+    <string name="one_usercrt">teisteanas cleachdaiche</string>
+    <string name="one_cacrt">teisteanas ùghdarrais</string>
+    <string name="n_cacrts">%d teisteanas(an) ùghdarrais</string>
+    <string name="password_error">Sgrìobh am facal-faire ceart.</string>
+    <string name="password_empty_error">Sgrìobh am facal-faire.</string>
+    <string name="name_empty_error">Sgrìobh ainm.</string>
+    <string name="name_char_error">Sgrìobh ainm anns nach eil ach litrichean gun stràcan is àireamhan.</string>
+    <string name="unable_to_save_cert">Cha b’ urrainn dhuinn an teisteanas a shàbhaladh. Chan eil stòras nan teisteasan an comas no cha deach a thòiseachadh mar bu chòir.</string>
+    <string name="cert_not_saved">Cha deach an teisteanas a stàladh.</string>
+    <string name="no_cert_to_saved">Cha eil teisteanas ri stàladh ann.</string>
+    <string name="invalid_cert">Chan eil an teisteanas dligheach.</string>
+    <string name="cert_too_large_error">Cha b’ urrainn dhuinn an teisteanas a stàladh on a tha e ro mhòr.</string>
+    <string name="cert_missing_error">Cha b’ urrainn dhuinn an teisteanas a stàladh oir cha b’ urrainn dhuinn am faidhle a luchdadh.</string>
+    <string name="cert_read_error">Cha b’ urrainn dhuinn an teisteanas a stàladh oir cha b’ urrainn dhuinn am faidhle a leughadh.</string>
+    <string name="only_primary_user_allowed">Chan fhaod ach sealbhadair an uidheim seo teisteanas a stàladh.</string>
+    <string name="credential_usage_label">Cleachdadh an teisteanais:</string>
+    <string-array name="credential_usage">
+        <item>VPN is aplacaidean</item>
+        <item>WiFi</item>
+    </string-array>
+    <string name="certificate_capabilities_warning">An aire: Faodaidh foillsichear an teisteanais seo a h-uile trafaig dhan uidheam agus uaithe-san a sgrùdadh.</string>
+    <string name="wifi_title">Pròifil WiFi</string>
+    <string name="wifi_detail_title">Mion-fhiosrachadh air %s</string>
+    <string name="wifi_detail_label">Mion-fhiosrachadh</string>
+    <string name="wifi_install_label">Stàlaich</string>
+    <string name="wifi_installing_label">’Ga stàladh</string>
+    <string name="wifi_cancel_label">Sguir dheth</string>
+    <string name="wifi_dismiss_label">Leig seachad</string>
+    <string name="wifi_no_config">Chan eil gin</string>
+    <string name="wifi_config_text">Ainm: %1$s\nFQDN: %2$s\nCo-bhanntachdan air fàrsan: %3$s\nFlaitheas: %4$s\nDòigh dearbhaidh: EAP-%5$s\n</string>
+    <string name="wifi_ttls_config_text">Ainm-cleachdaiche: %s\n</string>
+    <string name="wifi_tls_config_text">Teisteanas cliant:\n%1$s\nIuchair: %2$s\n</string>
+    <string name="wifi_sim_config_text">SIM: %s\n</string>
+    <string name="wifi_trust_config_text">Teisteanas earbsa:\n%s\n</string>
+    <string name="install_done_title">Chaidh an teisteanas a stàladh</string>
+    <string name="done_label">DEISEIL</string>
+    <string name="wifi_installer_fail_no_wifi_title">Chaidh sgur dhen stàladh</string>
+    <string name="wifi_installer_fail_title">Cha ghabh a stàladh</string>
+</resources>
