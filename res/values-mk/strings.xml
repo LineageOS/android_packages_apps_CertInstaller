@@ -35,7 +35,7 @@
     <string name="password_empty_error" msgid="591713406761723025">"Внеси ја лозинката."</string>
     <string name="name_empty_error" msgid="3808800768660110354">"Напиши име."</string>
     <string name="name_char_error" msgid="3176618568784938968">"Напишете име кое содржи само букви и броеви."</string>
-    <string name="unable_to_save_cert" msgid="9178604087335389686">"Не можеше да се зачува сертификатот. Меморирањето акредитиви не е овозможено или не е правилно иницијализирано."</string>
+    <string name="unable_to_save_cert" msgid="9178604087335389686">"Не може да се зачува сертификатот. Меморирањето акредитиви не е овозможено или не е правилно иницијализирано."</string>
     <string name="cert_not_saved" msgid="4037698479662830270">"Сертификатот не е инсталиран."</string>
     <string name="no_cert_to_saved" msgid="5708884372817309068">"Нема сертификат за инсталирање."</string>
     <string name="invalid_cert" msgid="7704228670980743590">"Сертификатот е неважечки."</string>
@@ -55,9 +55,9 @@
     <string name="ca_cert_is_added" msgid="2847081843756291802">"Сертификат CA е инсталиран"</string>
     <string name="user_cert_is_added" msgid="3088794616560630823">"Корисничкиот сертификат е инсталиран"</string>
     <string name="wifi_cert_is_added" msgid="333220613655140428">"Сертификатот за Wi‑Fi е инсталиран"</string>
-    <string name="cert_too_large_error" msgid="8715414972725646285">"Не можеше да се инсталира зашто сертификатот е преголем."</string>
-    <string name="cert_missing_error" msgid="7040527352278728220">"Не можеше да се инсталира зашто датотеката со сертификат не можеше да се лоцира."</string>
-    <string name="cert_read_error" msgid="7353463360652419796">"Не можеше да се инсталира зашто датотеката со сертификат не можеше да се прочита."</string>
+    <string name="cert_too_large_error" msgid="8715414972725646285">"Не може да се инсталира зашто сертификатот е преголем."</string>
+    <string name="cert_missing_error" msgid="7040527352278728220">"Не може да се инсталира зашто датотеката со сертификат не може да се лоцира."</string>
+    <string name="cert_read_error" msgid="7353463360652419796">"Не може да се инсталира зашто датотеката со сертификат не може да се прочита."</string>
     <string name="cert_temp_error" msgid="617276803992714550">"Привремен проблем. Обидете се подоцна."</string>
     <string name="only_primary_user_allowed" msgid="4005084935023047716">"Само сопственикот на овој уред може да инсталира сертификати."</string>
     <string name="credential_usage_label" msgid="1513892208033156805">"Употреба на акредитив:"</string>
