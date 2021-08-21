@@ -17,12 +17,15 @@
     <string name="app_name">Stàlaichear nan teisteanasan</string>
     <string name="pick_file_title">Tagh teisteanas</string>
     <string name="pkcs12_password_dialog_title">Às-tharraing an teisteanas</string>
-    <string name="extracting_pkcs12">’Ga tharraing às…</string>
+    <string name="extracting_pkcs12">’Ga tharraing às\u2026</string>
     <string name="pkcs12_file_password_dialog_title">Às-tharraing o %s</string>
+    <string name="name_credential_dialog_title">Thoir ainm air an teisteanas seo</string>
+    <string name="certificate_name">Ainm an teisteanais</string>
     <string name="credential_password">Cuir a-steach am facal-faire airson na teisteanasan às-tharraing.</string>
     <string name="credential_info">Seo na tha sa phacaid:</string>
     <string name="p12_description">Teisteanasan san stòras-iuchrach PKCS12.</string>
     <string name="one_userkey">iuchair cleachdaiche</string>
+    <string name="userkey_type">Algairim: </string>
     <string name="one_usercrt">teisteanas cleachdaiche</string>
     <string name="one_cacrt">teisteanas ùghdarrais</string>
     <string name="n_cacrts">%d teisteanas(an) ùghdarrais</string>
@@ -34,11 +37,30 @@
     <string name="cert_not_saved">Cha deach an teisteanas a stàladh.</string>
     <string name="no_cert_to_saved">Cha eil teisteanas ri stàladh ann.</string>
     <string name="invalid_cert">Chan eil an teisteanas dligheach.</string>
+    <string name="action_missing_private_key">Tha feum air iuchair phrìobhaideach mus stàlaich thu teisteanas</string>
+    <string name="action_missing_user_cert">Tha feum air teisteanas mus stàlaich thu iuchair phrìobhaideach</string>
+    <string name="select_certificate_usage_title">Tagh seòrsa an teisteanais</string>
+    <string name="redirect_ca_certificate_title">Stàlaich teisteanasan ùghdarraich sna roghainnean</string>
+    <string name="redirect_ca_certificate_with_app_info_message">Feumaidh tu an teisteanas o
+        <xliff:g id="requesting_app" example="Some App">%1$s</xliff:g> a stàladh sna
+        “Roghainnean”. Na stàlaich teisteanasan ùghdarrais ach o bhuidhnean sa bheil earbsa agad.</string>
+    <string name="redirect_ca_certificate_close_button">Dùin</string>
+    <string name="invalid_certificate_title">Cha ghabh am faidhle seo a chleachdadh</string>
+    <string name="invalid_certificate_close_button">Dùin</string>
+    <string name="invalid_certificate_message">Cha ghabh am faidhle seo a chleachdadh mar <xliff:g id="certificate_usage">%1$s</xliff:g></string>
+    <string name="certificate">Teisteanas</string>
+    <string name="ca_certificate">Teisteanas ùghdarrais</string>
+    <string name="user_certificate">Teisteanas cleachdaiche VPN ⁊ aplacaid</string>
+    <string name="wifi_certificate">Teisteanas WiFi</string>
+    <string name="ca_cert_is_added">Chaidh teisteanas ùghdarrais a stàladh</string>
+    <string name="user_cert_is_added">Chaidh teisteanas cleachdaiche a stàladh</string>
+    <string name="wifi_cert_is_added">Chaidh teisteanas WiFi a stàladh</string>
     <string name="cert_too_large_error">Cha b’ urrainn dhuinn an teisteanas a stàladh on a tha e ro mhòr.</string>
     <string name="cert_missing_error">Cha b’ urrainn dhuinn an teisteanas a stàladh oir cha b’ urrainn dhuinn am faidhle a luchdadh.</string>
     <string name="cert_read_error">Cha b’ urrainn dhuinn an teisteanas a stàladh oir cha b’ urrainn dhuinn am faidhle a leughadh.</string>
+    <string name="cert_temp_error">Dh’fhàillig leis an-dràsta. Feuch ris a-rithist an ceann greis.</string>
     <string name="only_primary_user_allowed">Chan fhaod ach sealbhadair an uidheim seo teisteanas a stàladh.</string>
-    <string name="credential_usage_label">Cleachdadh an teisteanais:</string>
+    <string name="credential_usage_label">Cleachdadh an teisteis:</string>
     <string-array name="credential_usage">
         <item>VPN is aplacaidean</item>
         <item>WiFi</item>
@@ -57,8 +79,13 @@
     <string name="wifi_tls_config_text">Teisteanas cliant:\n%1$s\nIuchair: %2$s\n</string>
     <string name="wifi_sim_config_text">SIM: %s\n</string>
     <string name="wifi_trust_config_text">Teisteanas earbsa:\n%s\n</string>
-    <string name="install_done_title">Chaidh an teisteanas a stàladh</string>
+    <string name="install_done_title">Chaidh an teisteas a stàladh</string>
+    <string name="install_done">Chaidh teisteanas <xliff:g id="name">%1$s</xliff:g> a chur ris na lìonraidhean WiFi a shàbhail thu.</string>
     <string name="done_label">DEISEIL</string>
+    <string name="wifi_installer_detail">Stàlaich teisteanas WiFi airson ceangal a dhèanamh ri lìonraidhean slighe<xliff:g id="name">%1$s</xliff:g>.</string>
+    <string name="wifi_installer_download_error">Tha duilgheadas air an fhaidhle a chaidh a luchdadh a-nuas agus cha ghabh a stàladh. Dèan cinnteach gun do luchdaich thu a-nuas am faidhle on tùs cheart.</string>
+    <string name="wifi_installer_fail">Chan urrainn dhuinn an teisteanas WiFi a stàladh. Feuch an luchdaich thu a-nuas am faidhle a-rithist.</string>
     <string name="wifi_installer_fail_no_wifi_title">Chaidh sgur dhen stàladh</string>
     <string name="wifi_installer_fail_title">Cha ghabh a stàladh</string>
+    <string name="wifi_installer_fail_no_wifi">Cuir WiFi air is feuch ris a-rithist.</string>
 </resources>
