@@ -35,7 +35,7 @@
     <string name="name_char_error">Sgrìobh ainm anns nach eil ach litrichean gun stràcan is àireamhan.</string>
     <string name="unable_to_save_cert">Cha b’ urrainn dhuinn an teisteanas a shàbhaladh. Chan eil stòras nan teisteasan an comas no cha deach a thòiseachadh mar bu chòir.</string>
     <string name="cert_not_saved">Cha deach an teisteanas a stàladh.</string>
-    <string name="no_cert_to_saved">Cha eil teisteanas ri stàladh ann.</string>
+    <string name="no_cert_to_saved">Chan eil teisteanas ri stàladh ann.</string>
     <string name="invalid_cert">Chan eil an teisteanas dligheach.</string>
     <string name="action_missing_private_key">Tha feum air iuchair phrìobhaideach mus stàlaich thu teisteanas</string>
     <string name="action_missing_user_cert">Tha feum air teisteanas mus stàlaich thu iuchair phrìobhaideach</string>
