@@ -19,6 +19,8 @@
     <string name="pkcs12_password_dialog_title">Echdynnu tystysgrif</string>
     <string name="extracting_pkcs12">Yn echdynnu\u2026</string>
     <string name="pkcs12_file_password_dialog_title">Echdynnu o %s</string>
+    <string name="name_credential_dialog_title">Enwa\'r dystysgrif hon</string>
+    <string name="certificate_name">Enw\'r dystysgrif</string>
     <string name="credential_password">Rho\'r cyfrinair i echdynnu\'r tystysgrifau.</string>
     <string name="credential_info">Mae\'r pecyn yn cynnwys:</string>
     <string name="p12_description">Tystysgrifau yn stôr allweddau PKCS12.</string>
@@ -37,9 +39,26 @@
     <string name="invalid_cert">Mae\'r dystysgrif yn annilys.</string>
     <string name="action_missing_private_key">Rhaid cael allwedd breifat i osod tystysgrif</string>
     <string name="action_missing_user_cert">Rhaid cael tystysgrif i osod allwedd breifat</string>
+    <string name="select_certificate_usage_title">Dewisa\'r math o dystysgrif</string>
+    <string name="redirect_ca_certificate_title">Gosoda dystysgrifau CA yn Gosodiadau</string>
+    <string name="redirect_ca_certificate_with_app_info_message">Rhaid i\'r dystysgrif hon oddi wrth
+ <xliff:g id="requesting_app" example="Some App">%1$s</xliff:g> cael ei gosod yn Gosodiadau. 
+Gosoda dystysgrifau CA dim ond gan sefydliadau rwyt yn ymddiried ynddynt.</string>
+    <string name="redirect_ca_certificate_close_button">Cau</string>
+    <string name="invalid_certificate_title">Ni ellir defnyddio\'r ffeil hon</string>
+    <string name="invalid_certificate_close_button">Cau</string>
+    <string name="invalid_certificate_message">Ni ellir defnyddio\'r ffeil hon fel <xliff:g id="certificate_usage">%1$s</xliff:g></string>
+    <string name="certificate">Tystysgrif</string>
+    <string name="ca_certificate">Tystysgrif CA</string>
+    <string name="user_certificate">Tystysgrif VPN a defnyddiwr ap</string>
+    <string name="wifi_certificate">Tystysgrif Wi\u2011Fi</string>
+    <string name="ca_cert_is_added">Gosodwyd y dystysgrif CA</string>
+    <string name="user_cert_is_added">Gosodwyd y dystysgrif defnyddiwr</string>
+    <string name="wifi_cert_is_added">Gosodwyd y dystysgrif Wi\u2011Fi</string>
     <string name="cert_too_large_error">Methwyd â\'i gosod am fod maint y dystysgrif yn rhy fawr.</string>
     <string name="cert_missing_error">Methwyd â\'i gosod am na lwyddwyd dod o hyd i ffeil y dystysgrif.</string>
     <string name="cert_read_error">Methwyd â\'i gosod am na lwyddwyd darllen ffeil y dystysgrif.</string>
+    <string name="cert_temp_error">Methiant dros dro. Rho gynnig arall arni\'n hwyrach.</string>
     <string name="only_primary_user_allowed">Dim ond perchennog y ddyfais hon gall osod tystysgrifau.</string>
     <string name="credential_usage_label">Defnydd tystysgrif:</string>
     <string-array name="credential_usage">
