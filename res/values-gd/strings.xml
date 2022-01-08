@@ -15,19 +15,32 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Stàlaichear nan teisteanasan</string>
+    <!-- Title of the file picker screen -->
     <string name="pick_file_title">Tagh teisteanas</string>
+    <!-- Title of dialog to enter password for pkcs12 -->
     <string name="pkcs12_password_dialog_title">Às-tharraing an teisteanas</string>
+    <!-- message in progress bar when waiting for extracting certs from a pkcs12 package -->
     <string name="extracting_pkcs12">’Ga tharraing às\u2026</string>
+    <!-- Title of dialog to enter password for pkcs12 file -->
     <string name="pkcs12_file_password_dialog_title">Às-tharraing o %s</string>
+    <!-- Title of a dialog. This title is asking the user to name the certificate they're installing on their device. -->
     <string name="name_credential_dialog_title">Thoir ainm air an teisteanas seo</string>
+    <!-- Input field in a dialog. This dialog is asking the user to name the certificate they are installing on their device. -->
     <string name="certificate_name">Ainm an teisteanais</string>
+    <!-- Title of the credential info -->
+    <!-- Description for the credential password input box -->
     <string name="credential_password">Cuir a-steach am facal-faire airson na teisteanasan às-tharraing.</string>
     <string name="credential_info">Seo na tha sa phacaid:</string>
     <string name="p12_description">Teisteanasan san stòras-iuchrach PKCS12.</string>
+    <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
     <string name="one_userkey">iuchair cleachdaiche</string>
+    <!-- Type of key found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
     <string name="userkey_type">Algairim: </string>
+    <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
     <string name="one_usercrt">teisteanas cleachdaiche</string>
+    <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
     <string name="one_cacrt">teisteanas ùghdarrais</string>
+    <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE]-->
     <string name="n_cacrts">%d teisteanas(an) ùghdarrais</string>
     <string name="password_error">Sgrìobh am facal-faire ceart.</string>
     <string name="password_empty_error">Sgrìobh am facal-faire.</string>
@@ -39,37 +52,67 @@
     <string name="invalid_cert">Chan eil an teisteanas dligheach.</string>
     <string name="action_missing_private_key">Tha feum air iuchair phrìobhaideach mus stàlaich thu teisteanas</string>
     <string name="action_missing_user_cert">Tha feum air teisteanas mus stàlaich thu iuchair phrìobhaideach</string>
+    <!-- Title of dialog to select the certificate usage when installing a certificate outside Settings -->
     <string name="select_certificate_usage_title">Tagh seòrsa an teisteanais</string>
+    <!-- Title of dialog that lets the user know that they must install CA certificates
+        in Settings. -->
     <string name="redirect_ca_certificate_title">Stàlaich teisteanasan ùghdarraich sna roghainnean</string>
+    <!-- Message of dialog that lets the user know that they must install CA certificates in
+        Settings. The placeholder is the name of the app that was trying to install the CA
+        certificate. -->
     <string name="redirect_ca_certificate_with_app_info_message">Feumaidh tu an teisteanas o
         <xliff:g id="requesting_app" example="Some App">%1$s</xliff:g> a stàladh sna
         “Roghainnean”. Na stàlaich teisteanasan ùghdarrais ach o bhuidhnean sa bheil earbsa agad.</string>
+    <!-- Button of dialog to redirect user when installing a CA certificate outside Settings -->
     <string name="redirect_ca_certificate_close_button">Dùin</string>
+    <!-- Title of dialog to inform user that certificate selected is invalid -->
     <string name="invalid_certificate_title">Cha ghabh am faidhle seo a chleachdadh</string>
+    <!-- Button of dialog to inform user that certificate selected is invalid -->
     <string name="invalid_certificate_close_button">Dùin</string>
+    <!-- Message of dialog to inform user that certificate selected is invalid -->
     <string name="invalid_certificate_message">Cha ghabh am faidhle seo a chleachdadh mar <xliff:g id="certificate_usage">%1$s</xliff:g></string>
+    <!-- Default certificate type used in dialog to inform user that certificate selected is invalid -->
     <string name="certificate">Teisteanas</string>
+    <!-- CA certificate type used in dialog to inform user that certificate selected is invalid -->
     <string name="ca_certificate">Teisteanas ùghdarrais</string>
+    <!-- User certificate type used in dialog to inform user that certificate selected is invalid -->
     <string name="user_certificate">Teisteanas cleachdaiche VPN ⁊ aplacaid</string>
+    <!-- WiFi certificate type used in dialog to inform user that certificate selected is invalid -->
     <string name="wifi_certificate">Teisteanas WiFi</string>
+    <!-- Confirmation toast. This toast lets the user know that they successfully installed a CA certificate on their device. -->
     <string name="ca_cert_is_added">Chaidh teisteanas ùghdarrais a stàladh</string>
+    <!-- Confirmation toast. This toast lets the user know that they successfully installed a user certificate on their device. -->
     <string name="user_cert_is_added">Chaidh teisteanas cleachdaiche a stàladh</string>
+    <!-- Confirmation toast. This toast lets the user know that they successfully installed a Wi-Fi certificate on their device. -->
     <string name="wifi_cert_is_added">Chaidh teisteanas WiFi a stàladh</string>
+    <!-- toast message -->
     <string name="cert_too_large_error">Cha b’ urrainn dhuinn an teisteanas a stàladh on a tha e ro mhòr.</string>
+    <!-- toast message -->
     <string name="cert_missing_error">Cha b’ urrainn dhuinn an teisteanas a stàladh oir cha b’ urrainn dhuinn am faidhle a luchdadh.</string>
+    <!-- toast message -->
     <string name="cert_read_error">Cha b’ urrainn dhuinn an teisteanas a stàladh oir cha b’ urrainn dhuinn am faidhle a leughadh.</string>
+    <!-- toast message -->
     <string name="cert_temp_error">Dh’fhàillig leis an-dràsta. Feuch ris a-rithist an ceann greis.</string>
+    <!-- Message displayed when a user other than the owner on a multi-user system tries to
+         install a certificate into the certificate store. [CHAR LIMIT=NONE] -->
     <string name="only_primary_user_allowed">Chan fhaod ach sealbhadair an uidheim seo teisteanas a stàladh.</string>
+    <!-- Label for spinner that shows the possible usage for a credential. Shown when user is
+         installing a credential [CHAR LIMIT=40] -->
     <string name="credential_usage_label">Cleachdadh an teisteis:</string>
+    <!-- Usage type for a credential that the user is installing. The label will restrict the
+         type of use for that credential. [CHAR LIMIT=40] -->
     <string-array name="credential_usage">
         <item>VPN is aplacaidean</item>
         <item>WiFi</item>
     </string-array>
+    <!-- Explain that the issuer of the CA certificate that is about to be installed can inspect
+         all of the traffic of the device. -->
     <string name="certificate_capabilities_warning">An aire: Faodaidh foillsichear an teisteanais seo a h-uile trafaig dhan uidheam agus uaithe-san a sgrùdadh.</string>
     <string name="wifi_title">Pròifil WiFi</string>
     <string name="wifi_detail_title">Mion-fhiosrachadh air %s</string>
     <string name="wifi_detail_label">Mion-fhiosrachadh</string>
     <string name="wifi_install_label">Stàlaich</string>
+    <!-- Toast message to be displayed when installing Hotspot 2.0 credentials [CHAR LIMIT=40] -->
     <string name="wifi_installing_label">’Ga stàladh</string>
     <string name="wifi_cancel_label">Sguir dheth</string>
     <string name="wifi_dismiss_label">Leig seachad</string>
@@ -80,12 +123,12 @@
     <string name="wifi_sim_config_text">SIM: %s\n</string>
     <string name="wifi_trust_config_text">Teisteanas earbsa:\n%s\n</string>
     <string name="install_done_title">Chaidh an teisteas a stàladh</string>
-    <string name="install_done">Chaidh teisteanas <xliff:g id="name">%1$s</xliff:g> a chur ris na lìonraidhean WiFi a shàbhail thu.</string>
+    <string name="install_done">Chaidh teisteanas <xliff:g id="name">%1$s</xliff:g> a chur ris na lìonraidhean WiFi a shàbhail thu&#46;</string>
     <string name="done_label">DEISEIL</string>
-    <string name="wifi_installer_detail">Stàlaich teisteanas WiFi airson ceangal a dhèanamh ri lìonraidhean slighe<xliff:g id="name">%1$s</xliff:g>.</string>
-    <string name="wifi_installer_download_error">Tha duilgheadas air an fhaidhle a chaidh a luchdadh a-nuas agus cha ghabh a stàladh. Dèan cinnteach gun do luchdaich thu a-nuas am faidhle on tùs cheart.</string>
-    <string name="wifi_installer_fail">Chan urrainn dhuinn an teisteanas WiFi a stàladh. Feuch an luchdaich thu a-nuas am faidhle a-rithist.</string>
+    <string name="wifi_installer_detail">Stàlaich teisteanas WiFi airson ceangal a dhèanamh ri lìonraidhean slighe<xliff:g id="name">%1$s</xliff:g>&#46;</string>
+    <string name="wifi_installer_download_error">Tha duilgheadas air an fhaidhle a chaidh a luchdadh a-nuas agus cha ghabh a stàladh&#46; Dèan cinnteach gun do luchdaich thu a-nuas am faidhle on tùs cheart&#46;</string>
+    <string name="wifi_installer_fail">Chan urrainn dhuinn an teisteanas WiFi a stàladh&#46; Feuch an luchdaich thu a-nuas am faidhle a-rithist&#46;</string>
     <string name="wifi_installer_fail_no_wifi_title">Chaidh sgur dhen stàladh</string>
     <string name="wifi_installer_fail_title">Cha ghabh a stàladh</string>
-    <string name="wifi_installer_fail_no_wifi">Cuir WiFi air is feuch ris a-rithist.</string>
+    <string name="wifi_installer_fail_no_wifi">Cuir WiFi air is feuch ris a-rithist&#46;</string>
 </resources>

@@ -15,17 +15,32 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Gosodwr Tystysgrif</string>
+    <!-- Title of the file picker screen -->
     <string name="pick_file_title">Dewis tystysgrif</string>
+    <!-- Title of dialog to enter password for pkcs12 -->
     <string name="pkcs12_password_dialog_title">Echdynnu tystysgrif</string>
+    <!-- message in progress bar when waiting for extracting certs from a pkcs12 package -->
     <string name="extracting_pkcs12">Yn echdynnu\u2026</string>
+    <!-- Title of dialog to enter password for pkcs12 file -->
     <string name="pkcs12_file_password_dialog_title">Echdynnu o %s</string>
+    <!-- Title of a dialog. This title is asking the user to name the certificate they're installing on their device. -->
+    <string name="name_credential_dialog_title">Enwa\'r dystysgrif hon</string>
+    <!-- Input field in a dialog. This dialog is asking the user to name the certificate they are installing on their device. -->
+    <string name="certificate_name">Enw\'r dystysgrif</string>
+    <!-- Title of the credential info -->
+    <!-- Description for the credential password input box -->
     <string name="credential_password">Rho\'r cyfrinair i echdynnu\'r tystysgrifau.</string>
     <string name="credential_info">Mae\'r pecyn yn cynnwys:</string>
     <string name="p12_description">Tystysgrifau yn stôr allweddau PKCS12.</string>
+    <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
     <string name="one_userkey">un allwedd defnyddiwr</string>
+    <!-- Type of key found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
     <string name="userkey_type">Algorithm: </string>
+    <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
     <string name="one_usercrt">un dystysgrif defnyddiwr</string>
+    <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
     <string name="one_cacrt">un dystysgrif CA</string>
+    <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE]-->
     <string name="n_cacrts">%d tystysgrif CA</string>
     <string name="password_error">Rho\'r cyfrinair cywir.</string>
     <string name="password_empty_error">Rho\'r cyfrinair.</string>
@@ -37,20 +52,67 @@
     <string name="invalid_cert">Mae\'r dystysgrif yn annilys.</string>
     <string name="action_missing_private_key">Rhaid cael allwedd breifat i osod tystysgrif</string>
     <string name="action_missing_user_cert">Rhaid cael tystysgrif i osod allwedd breifat</string>
+    <!-- Title of dialog to select the certificate usage when installing a certificate outside Settings -->
+    <string name="select_certificate_usage_title">Dewisa\'r math o dystysgrif</string>
+    <!-- Title of dialog that lets the user know that they must install CA certificates
+        in Settings. -->
+    <string name="redirect_ca_certificate_title">Gosoda dystysgrifau CA yn Gosodiadau</string>
+    <!-- Message of dialog that lets the user know that they must install CA certificates in
+        Settings. The placeholder is the name of the app that was trying to install the CA
+        certificate. -->
+    <string name="redirect_ca_certificate_with_app_info_message">Rhaid i\'r dystysgrif hon oddi wrth
+ <xliff:g id="requesting_app" example="Some App">%1$s</xliff:g> cael ei gosod yn Gosodiadau. 
+Gosoda dystysgrifau CA dim ond gan sefydliadau rwyt yn ymddiried ynddynt.</string>
+    <!-- Button of dialog to redirect user when installing a CA certificate outside Settings -->
+    <string name="redirect_ca_certificate_close_button">Cau</string>
+    <!-- Title of dialog to inform user that certificate selected is invalid -->
+    <string name="invalid_certificate_title">Ni ellir defnyddio\'r ffeil hon</string>
+    <!-- Button of dialog to inform user that certificate selected is invalid -->
+    <string name="invalid_certificate_close_button">Cau</string>
+    <!-- Message of dialog to inform user that certificate selected is invalid -->
+    <string name="invalid_certificate_message">Ni ellir defnyddio\'r ffeil hon fel <xliff:g id="certificate_usage">%1$s</xliff:g></string>
+    <!-- Default certificate type used in dialog to inform user that certificate selected is invalid -->
+    <string name="certificate">Tystysgrif</string>
+    <!-- CA certificate type used in dialog to inform user that certificate selected is invalid -->
+    <string name="ca_certificate">Tystysgrif CA</string>
+    <!-- User certificate type used in dialog to inform user that certificate selected is invalid -->
+    <string name="user_certificate">Tystysgrif VPN a defnyddiwr ap</string>
+    <!-- WiFi certificate type used in dialog to inform user that certificate selected is invalid -->
+    <string name="wifi_certificate">Tystysgrif Wi\u2011Fi</string>
+    <!-- Confirmation toast. This toast lets the user know that they successfully installed a CA certificate on their device. -->
+    <string name="ca_cert_is_added">Gosodwyd y dystysgrif CA</string>
+    <!-- Confirmation toast. This toast lets the user know that they successfully installed a user certificate on their device. -->
+    <string name="user_cert_is_added">Gosodwyd y dystysgrif defnyddiwr</string>
+    <!-- Confirmation toast. This toast lets the user know that they successfully installed a Wi-Fi certificate on their device. -->
+    <string name="wifi_cert_is_added">Gosodwyd y dystysgrif Wi\u2011Fi</string>
+    <!-- toast message -->
     <string name="cert_too_large_error">Methwyd â\'i gosod am fod maint y dystysgrif yn rhy fawr.</string>
+    <!-- toast message -->
     <string name="cert_missing_error">Methwyd â\'i gosod am na lwyddwyd dod o hyd i ffeil y dystysgrif.</string>
+    <!-- toast message -->
     <string name="cert_read_error">Methwyd â\'i gosod am na lwyddwyd darllen ffeil y dystysgrif.</string>
+    <!-- toast message -->
+    <string name="cert_temp_error">Methiant dros dro. Rho gynnig arall arni\'n hwyrach.</string>
+    <!-- Message displayed when a user other than the owner on a multi-user system tries to
+         install a certificate into the certificate store. [CHAR LIMIT=NONE] -->
     <string name="only_primary_user_allowed">Dim ond perchennog y ddyfais hon gall osod tystysgrifau.</string>
+    <!-- Label for spinner that shows the possible usage for a credential. Shown when user is
+         installing a credential [CHAR LIMIT=40] -->
     <string name="credential_usage_label">Defnydd tystysgrif:</string>
+    <!-- Usage type for a credential that the user is installing. The label will restrict the
+         type of use for that credential. [CHAR LIMIT=40] -->
     <string-array name="credential_usage">
         <item>VPN ac apiau</item>
         <item>Wi-Fi</item>
     </string-array>
+    <!-- Explain that the issuer of the CA certificate that is about to be installed can inspect
+         all of the traffic of the device. -->
     <string name="certificate_capabilities_warning">Noder: Mae\'n bosib gall gyhoeddwr y dystysgrif hon archwilio holl draffig i ac oddi wrth y ddyfais.</string>
     <string name="wifi_title">Proffil Wi-Fi</string>
     <string name="wifi_detail_title">Manylion ar gyfer %s</string>
     <string name="wifi_detail_label">Manylion</string>
     <string name="wifi_install_label">Gosod</string>
+    <!-- Toast message to be displayed when installing Hotspot 2.0 credentials [CHAR LIMIT=40] -->
     <string name="wifi_installing_label">Yn gosod</string>
     <string name="wifi_cancel_label">Diddymu</string>
     <string name="wifi_dismiss_label">Diystyru</string>
@@ -63,10 +125,10 @@
     <string name="install_done_title">Gosodwyd tyst-nodiadau</string>
     <string name="install_done">Mae manylion <xliff:g id="name">%1$s</xliff:g> wedi eu hychwanegu i\'r rhwydweithiau Wi-Fi sydd wedi\'u cofio.</string>
     <string name="done_label">IAWN</string>
-    <string name="wifi_installer_detail">Gosod manylion Wi-Fi er mwyn cysylltu i rwydweithiau sydd ar gael trwy <xliff:g id="name">%1$s</xliff:g>.</string>
-    <string name="wifi_installer_download_error">Mae gan y ffeil a lawrlwythwyd problemau ac nid yw\'n bosib ei gosod. Sicrha dy fod yn lawrlwytho\'r ffeil o\'r ffynhonnell gywir.</string>
-    <string name="wifi_installer_fail">Methu â gosod manylion Wi-Fi. Ceisia lawrlwytho\'r ffeil eto.</string>
+    <string name="wifi_installer_detail">Gosod manylion Wi-Fi er mwyn cysylltu i rwydweithiau sydd ar gael trwy <xliff:g id="name">%1$s</xliff:g>&#46;</string>
+    <string name="wifi_installer_download_error">Mae gan y ffeil a lawrlwythwyd problemau ac nid yw\'n bosib ei gosod&#46; Sicrha dy fod yn lawrlwytho\'r ffeil o\'r ffynhonnell gywir&#46;</string>
+    <string name="wifi_installer_fail">Methu â gosod manylion Wi-Fi&#46; Ceisia lawrlwytho\'r ffeil eto&#46;</string>
     <string name="wifi_installer_fail_no_wifi_title">Diddymwyd gosod</string>
     <string name="wifi_installer_fail_title">Methu â\'i gosod</string>
-    <string name="wifi_installer_fail_no_wifi">Troi Wi-Fi ymlaen a cheisio eto.</string>
+    <string name="wifi_installer_fail_no_wifi">Troi Wi-Fi ymlaen a cheisio eto&#46;</string>
 </resources>

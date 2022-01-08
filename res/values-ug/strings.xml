@@ -15,16 +15,29 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">گۇۋاھنامە ئورناتقۇچ</string>
+    <!-- Title of the file picker screen -->
     <string name="pick_file_title">بىر گۇۋاھنامە تاللاڭ</string>
+    <!-- Title of dialog to enter password for pkcs12 -->
     <string name="pkcs12_password_dialog_title">گۇۋاھنامە يەش</string>
+    <!-- message in progress bar when waiting for extracting certs from a pkcs12 package -->
     <string name="extracting_pkcs12">يېشىۋاتىدۇ…</string>
+    <!-- Title of dialog to enter password for pkcs12 file -->
     <string name="pkcs12_file_password_dialog_title">%s دىن يېشىۋاتىدۇ</string>
+    <!-- Title of a dialog. This title is asking the user to name the certificate they're installing on their device. -->
+    <!-- Input field in a dialog. This dialog is asking the user to name the certificate they are installing on their device. -->
+    <!-- Title of the credential info -->
+    <!-- Description for the credential password input box -->
     <string name="credential_password">گۇۋاھنامە يېشىدىغان ئىمنى كىرگۈزۈڭ.</string>
     <string name="credential_info">بوغچىنىڭ ئىچىدە:</string>
     <string name="p12_description">PKCS12 شىفىرلىق ئاچقۇچ ئامبىرىدىكى گۇۋاھنامە</string>
+    <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
     <string name="one_userkey">بىر ئىشلەتكۈچى ئاچقۇچى</string>
+    <!-- Type of key found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
+    <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
     <string name="one_usercrt">بىر ئىشلەتكۈچى گۇۋاھنامىسى</string>
+    <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
     <string name="one_cacrt">بىر CA گۇۋاھنامىسى</string>
+    <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE]-->
     <string name="n_cacrts">%d CA گۇۋاھنامىسى</string>
     <string name="password_error">توغرا ئىمنى كىرگۈزۈڭ.</string>
     <string name="password_empty_error">ئىم كىرگۈزۈڭ.</string>
@@ -34,13 +47,43 @@
     <string name="cert_not_saved">بۇ گۇۋاھنامە ئورنىتىلمىغان.</string>
     <string name="no_cert_to_saved">ئورنىتىدىغان گۇۋاھنامە يوق.</string>
     <string name="invalid_cert">گۇۋاھنامە ئىناۋەتسىز.</string>
+    <!-- Title of dialog to select the certificate usage when installing a certificate outside Settings -->
+    <!-- Title of dialog that lets the user know that they must install CA certificates
+        in Settings. -->
+    <!-- Message of dialog that lets the user know that they must install CA certificates in
+        Settings. The placeholder is the name of the app that was trying to install the CA
+        certificate. -->
+    <!-- Button of dialog to redirect user when installing a CA certificate outside Settings -->
+    <!-- Title of dialog to inform user that certificate selected is invalid -->
+    <!-- Button of dialog to inform user that certificate selected is invalid -->
+    <!-- Message of dialog to inform user that certificate selected is invalid -->
+    <!-- Default certificate type used in dialog to inform user that certificate selected is invalid -->
+    <!-- CA certificate type used in dialog to inform user that certificate selected is invalid -->
+    <!-- User certificate type used in dialog to inform user that certificate selected is invalid -->
+    <!-- WiFi certificate type used in dialog to inform user that certificate selected is invalid -->
+    <!-- Confirmation toast. This toast lets the user know that they successfully installed a CA certificate on their device. -->
+    <!-- Confirmation toast. This toast lets the user know that they successfully installed a user certificate on their device. -->
+    <!-- Confirmation toast. This toast lets the user know that they successfully installed a Wi-Fi certificate on their device. -->
+    <!-- toast message -->
     <string name="cert_too_large_error">ئورنىتالمىدى چۈنكى گۇۋاھنامە بەك چوڭ.</string>
+    <!-- toast message -->
     <string name="cert_missing_error">ئورنىتالمىدى چۈنكى گۇۋاھنامە گۇۋاھنامە ھۆججەتنى تاپالمىدى.</string>
+    <!-- toast message -->
     <string name="cert_read_error">ئورنىتالمىدى چۈنكى گۇۋاھنامە گۇۋاھنامە ھۆججەتنى ئۇقۇيالمىدى.</string>
+    <!-- toast message -->
+    <!-- Message displayed when a user other than the owner on a multi-user system tries to
+         install a certificate into the certificate store. [CHAR LIMIT=NONE] -->
     <string name="only_primary_user_allowed">پەقەت بۇ ئۈسكۈنىنىڭ ئىگىسىلا گۇۋاھنامە ئورنىتالايدۇ.</string>
+    <!-- Label for spinner that shows the possible usage for a credential. Shown when user is
+         installing a credential [CHAR LIMIT=40] -->
     <string name="credential_usage_label">ئىسپاتلىق ئىشلىتىش:</string>
+    <!-- Usage type for a credential that the user is installing. The label will restrict the
+         type of use for that credential. [CHAR LIMIT=40] -->
     <string-array name="credential_usage">
         <item>VPN ۋە ئەپلەر</item>
         <item>Wi-Fi</item>
     </string-array>
+    <!-- Explain that the issuer of the CA certificate that is about to be installed can inspect
+         all of the traffic of the device. -->
+    <!-- Toast message to be displayed when installing Hotspot 2.0 credentials [CHAR LIMIT=40] -->
 </resources>

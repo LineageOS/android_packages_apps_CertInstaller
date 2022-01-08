@@ -15,16 +15,29 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Instalador de certificaos</string>
+    <!-- Title of the file picker screen -->
     <string name="pick_file_title">Escoyeta de certificáu</string>
+    <!-- Title of dialog to enter password for pkcs12 -->
     <string name="pkcs12_password_dialog_title">Estaición del certificáu</string>
+    <!-- message in progress bar when waiting for extracting certs from a pkcs12 package -->
     <string name="extracting_pkcs12">Estrayendo\u2026</string>
+    <!-- Title of dialog to enter password for pkcs12 file -->
     <string name="pkcs12_file_password_dialog_title">Estraición dende %s</string>
+    <!-- Title of a dialog. This title is asking the user to name the certificate they're installing on their device. -->
+    <!-- Input field in a dialog. This dialog is asking the user to name the certificate they are installing on their device. -->
+    <!-- Title of the credential info -->
+    <!-- Description for the credential password input box -->
     <string name="credential_password">Teclexa la contraseña pa estrayer los certificaos.</string>
     <string name="credential_info">El paquete contién:</string>
     <string name="p12_description">Certificaos nel almacén de claves PKCS12.</string>
+    <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
     <string name="one_userkey">una clave d\'usuariu</string>
+    <!-- Type of key found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
+    <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
     <string name="one_usercrt">un certificáu d\'usuariu</string>
+    <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE] -->
     <string name="one_cacrt">un certificáu de CA</string>
+    <!-- Item found in the PKCS12 keystore being investigated [CHAR LIMIT=NONE]-->
     <string name="n_cacrts">%d certificaos de CA</string>
     <string name="password_error">Teclexa la contraseña correuta.</string>
     <string name="password_empty_error">Teclexa la contraseña.</string>
@@ -34,20 +47,50 @@
     <string name="cert_not_saved">El certificáu nun ta instaláu.</string>
     <string name="no_cert_to_saved">Nun hai certificaos pa instalar.</string>
     <string name="invalid_cert">El certificáu nun ye válidu.</string>
+    <!-- Title of dialog to select the certificate usage when installing a certificate outside Settings -->
+    <!-- Title of dialog that lets the user know that they must install CA certificates
+        in Settings. -->
+    <!-- Message of dialog that lets the user know that they must install CA certificates in
+        Settings. The placeholder is the name of the app that was trying to install the CA
+        certificate. -->
+    <!-- Button of dialog to redirect user when installing a CA certificate outside Settings -->
+    <!-- Title of dialog to inform user that certificate selected is invalid -->
+    <!-- Button of dialog to inform user that certificate selected is invalid -->
+    <!-- Message of dialog to inform user that certificate selected is invalid -->
+    <!-- Default certificate type used in dialog to inform user that certificate selected is invalid -->
+    <!-- CA certificate type used in dialog to inform user that certificate selected is invalid -->
+    <!-- User certificate type used in dialog to inform user that certificate selected is invalid -->
+    <!-- WiFi certificate type used in dialog to inform user that certificate selected is invalid -->
+    <!-- Confirmation toast. This toast lets the user know that they successfully installed a CA certificate on their device. -->
+    <!-- Confirmation toast. This toast lets the user know that they successfully installed a user certificate on their device. -->
+    <!-- Confirmation toast. This toast lets the user know that they successfully installed a Wi-Fi certificate on their device. -->
+    <!-- toast message -->
     <string name="cert_too_large_error">Nun pudo instalase porque\'l tamañu del certificáu ye pergrande.</string>
+    <!-- toast message -->
     <string name="cert_missing_error">Nun pudo instalase porque nun s\'allugó\'l ficheru de certificáu.</string>
+    <!-- toast message -->
     <string name="cert_read_error">Nun pudo instalase porque nun pudo lleese\'l ficheru del certificáu.</string>
+    <!-- toast message -->
+    <!-- Message displayed when a user other than the owner on a multi-user system tries to
+         install a certificate into the certificate store. [CHAR LIMIT=NONE] -->
     <string name="only_primary_user_allowed">Namái\'l dueñu d\'esti preséu pue instalar certificaos.</string>
+    <!-- Label for spinner that shows the possible usage for a credential. Shown when user is
+         installing a credential [CHAR LIMIT=40] -->
     <string name="credential_usage_label">Usu de credenciales:</string>
+    <!-- Usage type for a credential that the user is installing. The label will restrict the
+         type of use for that credential. [CHAR LIMIT=40] -->
     <string-array name="credential_usage">
         <item>VPN y aplicaciones</item>
         <item>Wi-Fi</item>
     </string-array>
+    <!-- Explain that the issuer of the CA certificate that is about to be installed can inspect
+         all of the traffic of the device. -->
     <string name="certificate_capabilities_warning">Nota: L\'emisor d\'esti certificáu puede inspeccionar tol tráficu haza y desde\'l to preséu.</string>
     <string name="wifi_title">Perfil Wi-Fi</string>
     <string name="wifi_detail_title">Detalles pa %s</string>
     <string name="wifi_detail_label">Detalles</string>
     <string name="wifi_install_label">Instalar</string>
+    <!-- Toast message to be displayed when installing Hotspot 2.0 credentials [CHAR LIMIT=40] -->
     <string name="wifi_installing_label">Instalando</string>
     <string name="wifi_cancel_label">Encaboxar</string>
     <string name="wifi_dismiss_label">Escartar</string>
@@ -59,7 +102,7 @@
     <string name="wifi_trust_config_text">Certificáu d\'enfotu:\n%s\n</string>
     <string name="install_done_title">Instaláronse les credenciales</string>
     <string name="done_label">FECHO</string>
-    <string name="wifi_installer_detail">Instala credenciales Wi-Fi pa coneutate a les redes disponibles per aciu de <xliff:g id="name">%1$s</xliff:g>.</string>
+    <string name="wifi_installer_detail">Instala credenciales Wi-Fi pa coneutate a les redes disponibles per aciu de <xliff:g id="name">%1$s</xliff:g>&#46;</string>
     <string name="wifi_installer_fail_no_wifi_title">Encaboxóse la instalación</string>
     <string name="wifi_installer_fail_title">Nun pue instalase</string>
 </resources>
