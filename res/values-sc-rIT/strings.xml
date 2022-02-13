@@ -60,6 +60,7 @@
     <string name="wifi_sim_config_text">SIM: %s\n</string>
     <string name="wifi_trust_config_text">Tzertificadu de fide:\n%s\n</string>
     <string name="install_done_title">Credentziales installadas</string>
+    <string name="done_label">FATU</string>
     <string name="wifi_installer_fail_no_wifi_title">Installatzione cantzellada</string>
     <string name="wifi_installer_fail_title">Non faghet a installare</string>
 </resources>
