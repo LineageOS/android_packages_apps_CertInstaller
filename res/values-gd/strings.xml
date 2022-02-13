@@ -17,7 +17,7 @@
     <string name="app_name">Stàlaichear nan teisteanasan</string>
     <string name="pick_file_title">Tagh teisteanas</string>
     <string name="pkcs12_password_dialog_title">Às-tharraing an teisteanas</string>
-    <string name="extracting_pkcs12">’Ga tharraing às…</string>
+    <string name="extracting_pkcs12">’Ga tharraing às\u2026</string>
     <string name="pkcs12_file_password_dialog_title">Às-tharraing o %s</string>
     <string name="name_credential_dialog_title">Cuir ainm air an teisteanas</string>
     <string name="credential_name">Ainm an teisteanais:</string>
@@ -34,7 +34,7 @@
     <string name="name_char_error">Sgrìobh ainm anns nach eil ach litrichean gun stràcan is àireamhan.</string>
     <string name="unable_to_save_cert">Cha b’ urrainn dhuinn an teisteanas a shàbhaladh. Chan eil stòras nan teisteasan an comas no cha deach a thòiseachadh mar bu chòir.</string>
     <string name="cert_not_saved">Cha deach an teisteanas a stàladh.</string>
-    <string name="no_cert_to_saved">Cha eil teisteanas ri stàladh ann.</string>
+    <string name="no_cert_to_saved">Chan eil teisteanas ri stàladh ann.</string>
     <string name="invalid_cert">Chan eil an teisteanas dligheach.</string>
     <string name="cert_is_added">Chaidh <xliff:g id="credential">%s</xliff:g> a stàladh.</string>
     <string name="cert_too_large_error">Cha b’ urrainn dhuinn an teisteanas a stàladh on a tha e ro mhòr.</string>
@@ -45,7 +45,7 @@
     <string name="sdcard_not_present" product="nosdcard">Chan eil stòras USB ri làimh.</string>
     <string name="sdcard_not_present" product="default">Chan eil cairt SD ann.</string>
     <string name="only_primary_user_allowed">Chan fhaod ach sealbhadair an uidheim seo teisteanas a stàladh.</string>
-    <string name="credential_usage_label">Cleachdadh an teisteanais:</string>
+    <string name="credential_usage_label">Cleachdadh an teisteis:</string>
     <string-array name="credential_usage">
         <item>VPN is aplacaidean</item>
         <item>WiFi</item>
@@ -64,8 +64,13 @@
     <string name="wifi_tls_config_text">Teisteanas cliant:\n%1$s\nIuchair: %2$s\n</string>
     <string name="wifi_sim_config_text">SIM: %s\n</string>
     <string name="wifi_trust_config_text">Teisteanas earbsa:\n%s\n</string>
-    <string name="install_done_title">Chaidh an teisteanas a stàladh</string>
+    <string name="install_done_title">Chaidh an teisteas a stàladh</string>
+    <string name="install_done">Chaidh teisteanas <xliff:g id="name">%1$s</xliff:g> a chur ris na lìonraidhean WiFi a shàbhail thu.</string>
     <string name="done_label">DEISEIL</string>
+    <string name="wifi_installer_detail">Stàlaich teisteanas WiFi airson ceangal a dhèanamh ri lìonraidhean slighe<xliff:g id="name">%1$s</xliff:g>.</string>
+    <string name="wifi_installer_download_error">Tha duilgheadas air an fhaidhle a chaidh a luchdadh a-nuas agus cha ghabh a stàladh. Dèan cinnteach gun do luchdaich thu a-nuas am faidhle on tùs cheart.</string>
+    <string name="wifi_installer_fail">Chan urrainn dhuinn an teisteanas WiFi a stàladh. Feuch an luchdaich thu a-nuas am faidhle a-rithist.</string>
     <string name="wifi_installer_fail_no_wifi_title">Chaidh sgur dhen stàladh</string>
     <string name="wifi_installer_fail_title">Cha ghabh a stàladh</string>
+    <string name="wifi_installer_fail_no_wifi">Cuir WiFi air is feuch ris a-rithist.</string>
 </resources>
