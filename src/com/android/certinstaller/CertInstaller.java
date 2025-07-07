@@ -30,6 +30,7 @@ import android.content.pm.PackageManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Process;
+import android.os.UserHandle;
 import android.security.Credentials;
 import android.security.KeyChain;
 import android.security.KeyChain.KeyChainConnection;
@@ -69,6 +70,7 @@ public class CertInstaller extends Activity {
 
     // key to states Bundle
     private static final String NEXT_ACTION_KEY = "na";
+    private static final String SETTINGS_PACKAGE = "com.android.settings";
 
     private final ViewHelper mView = new ViewHelper();
 
@@ -241,13 +243,32 @@ public class CertInstaller extends Activity {
                 new Pkcs12ExtractAction("").run(this);
             }
         } else {
-            if (mCredentials.calledBySettings()) {
+            if (isCalledBySettings()) {
                 MyAction action = new InstallOthersAction();
                 action.run(this);
             } else {
                 createRedirectOrSelectUsageDialog();
             }
         }
+    }
+
+    private boolean isCalledBySettings() {
+        if (!SETTINGS_PACKAGE.equals(mCredentials.getReferrer())) {
+            return false;
+        }
+
+        // On some systems there is no preinstalled "com.android.settings". To block settings
+        // impostors from installing CA certificates, we check referrer's uid.
+        final PackageManager pm = getPackageManager();
+        final int settingsUid;
+        try {
+            settingsUid = pm.getApplicationInfo(SETTINGS_PACKAGE, 0 /* flags */).uid;
+        } catch (PackageManager.NameNotFoundException e) {
+            Log.e(TAG, "Unable to find info for settings package");
+            return false;
+        }
+
+        return UserHandle.isSameApp(settingsUid, Process.SYSTEM_UID);
     }
 
     private class InstallVpnAndAppsTrustAnchorsTask extends AsyncTask<Void, Void, Boolean> {
@@ -353,7 +374,7 @@ public class CertInstaller extends Activity {
         removeDialog(PROGRESS_BAR_DIALOG);
         if (success) {
             removeDialog(PKCS12_PASSWORD_DIALOG);
-            if (mCredentials.calledBySettings()) {
+            if (isCalledBySettings()) {
                 if (validCertificateSelected()) {
                     installCertificateOrShowNameDialog();
                 } else {

@@ -71,7 +71,6 @@ class CredentialHelper {
     private static final String DATA_KEY = "data";
     private static final String CERTS_KEY = "crts";
     private static final String USER_KEY_ALGORITHM = "user_key_algorithm";
-    private static final String SETTINGS_PACKAGE = "com.android.settings";
 
     private static final String TAG = "CredentialHelper";
 
@@ -294,10 +293,6 @@ class CredentialHelper {
 
     String getCertUsageSelected() {
         return mCertUsageSelected;
-    }
-
-    boolean calledBySettings() {
-        return mReferrer != null && mReferrer.equals(SETTINGS_PACKAGE);
     }
 
     Intent createSystemInstallIntent(final Context context) {
