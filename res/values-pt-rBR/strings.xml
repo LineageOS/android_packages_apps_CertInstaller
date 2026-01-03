@@ -83,7 +83,7 @@
     <string name="install_done" msgid="1522718684172097080">"As credenciais de <xliff:g id="NAME">%1$s</xliff:g> foram adicionadas a redes Wi-Fi salvas."</string>
     <string name="done_label" msgid="5597425930652904250">"CONCLUÍDO"</string>
     <string name="wifi_installer_detail" msgid="63879632832701669">"Instalar credenciais de Wi-Fi para se conectar a redes disponíveis via <xliff:g id="NAME">%1$s</xliff:g>."</string>
-    <string name="wifi_installer_download_error" msgid="5429453090956277692">"O arquivo transferido por download tem problemas e não pode ser instalado. Certifique-se de que você tenha feito o download do arquivo da fonte correta."</string>
+    <string name="wifi_installer_download_error" msgid="5429453090956277692">"O arquivo baixado tem problemas e não pode ser instalado. Certifique-se de que você tenha feito o download do arquivo da fonte correta."</string>
     <string name="wifi_installer_fail" msgid="894483173306576331">"Não foi possível instalar as credenciais de Wi-Fi. Tente fazer o download do arquivo novamente."</string>
     <string name="wifi_installer_fail_no_wifi_title" msgid="8358191074828840533">"Instalação cancelada"</string>
     <string name="wifi_installer_fail_title" msgid="5547079779067835479">"Não é possível realizar a instalação"</string>

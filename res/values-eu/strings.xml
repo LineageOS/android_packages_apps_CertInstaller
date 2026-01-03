@@ -87,5 +87,5 @@
     <string name="wifi_installer_fail" msgid="894483173306576331">"Ezin dira instalatu wifi-kredentzialak. Deskargatu fitxategia berriro."</string>
     <string name="wifi_installer_fail_no_wifi_title" msgid="8358191074828840533">"Instalazioa bertan behera utzi da"</string>
     <string name="wifi_installer_fail_title" msgid="5547079779067835479">"Ezin da instalatu"</string>
-    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"Aktibatu Wi-Fi konexioa eta saiatu berriro."</string>
+    <string name="wifi_installer_fail_no_wifi" msgid="2044576439984209921">"Aktibatu wifi-konexioa eta saiatu berriro."</string>
 </resources>

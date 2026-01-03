@@ -28,7 +28,7 @@
     <string name="p12_description" msgid="4128352087331630024">"PKCS12 কীষ্ট’ৰৰ প্ৰমাণপত্ৰবোৰ৷"</string>
     <string name="one_userkey" msgid="3500697912370644881">"এটা ব্যৱহাৰকাৰীৰ কী"</string>
     <string name="userkey_type" msgid="6214833257030657106">"কলনবিধি:"</string>
-    <string name="one_usercrt" msgid="7690798336332403106">"এজন ব্যৱহাৰকাৰী থকা প্ৰমাণপত্ৰ"</string>
+    <string name="one_usercrt" msgid="7690798336332403106">"এগৰাকী ব্যৱহাৰকাৰী থকা প্ৰমাণপত্ৰ"</string>
     <string name="one_cacrt" msgid="2667950425420663146">"এখন চিএ প্ৰমাণপত্ৰ"</string>
     <string name="n_cacrts" msgid="2141498640685639208">"%d চিএ প্ৰমাণপত্ৰবোৰ"</string>
     <string name="password_error" msgid="2042471639556516356">"শুদ্ধ পাছৱৰ্ডটো লিখক।"</string>

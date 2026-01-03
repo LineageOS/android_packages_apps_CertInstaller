@@ -44,9 +44,9 @@
     <string name="select_certificate_usage_title" msgid="8853023485944920851">"సర్టిఫికెట్ రకాన్ని ఎంచుకోండి"</string>
     <string name="redirect_ca_certificate_title" msgid="3457516863949244510">"సెట్టింగ్‌లలో CA సర్టిఫికెట్‌లను ఇన్‌స్టాల్ చేయండి"</string>
     <string name="redirect_ca_certificate_with_app_info_message" msgid="934477720755323579">"<xliff:g id="REQUESTING_APP">%1$s</xliff:g> నుండి ఈ సర్టిఫికెట్‌ను, సెట్టింగ్‌లలో తప్పనిసరిగా ఇన్‌స్టాల్ చేయాలి. మీకు నమ్మకం ఉన్న సంస్థల నుండి మాత్రమే CA సర్టిఫికెట్‌లను ఇన్‌స్టాల్ చేయండి."</string>
-    <string name="redirect_ca_certificate_close_button" msgid="4291301659747279488">"మూసివేయి"</string>
+    <string name="redirect_ca_certificate_close_button" msgid="4291301659747279488">"మూసివేయండి"</string>
     <string name="invalid_certificate_title" msgid="6500315398016809635">"ఈ ఫైల్‌ను ఉపయోగించలేము"</string>
-    <string name="invalid_certificate_close_button" msgid="350986774973653102">"మూసివేయి"</string>
+    <string name="invalid_certificate_close_button" msgid="350986774973653102">"మూసివేయండి"</string>
     <string name="invalid_certificate_message" msgid="3508065546083182733">"ఈ ఫైల్‌ను <xliff:g id="CERTIFICATE_USAGE">%1$s</xliff:g>గా ఉపయోగించడం సాధ్యం కాదు"</string>
     <string name="certificate" msgid="8790577925509962529">"సర్టిఫికెట్"</string>
     <string name="ca_certificate" msgid="7397198551290322945">"CA సర్టిఫికెట్"</string>

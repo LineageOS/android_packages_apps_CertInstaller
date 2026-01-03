@@ -3,6 +3,7 @@
 //############################################################
 
 package {
+    default_team: "trendy_team_enterprise",
     // http://go/android-license-faq
     default_applicable_licenses: ["Android-Apache-2.0"],
 }
@@ -15,4 +16,6 @@ android_robolectric_test {
     java_resource_dirs: ["config"],
 
     instrumentation_for: "CertInstaller",
+
+    upstream: true,
 }

@@ -79,7 +79,7 @@
     <string name="wifi_tls_config_text" msgid="9062328536640168510">"ಕ್ಲೈಂಟ್ ಪ್ರಮಾಣಪತ್ರ:\n%1$s\nಕೀ: %2$s\n"</string>
     <string name="wifi_sim_config_text" msgid="1666019954520831840">"ಸಿಮ್: %s\n"</string>
     <string name="wifi_trust_config_text" msgid="5916047381475747783">"ಟ್ರಸ್ಟ್ ಪ್ರಮಾಣಪತ್ರ:\n%s\n"</string>
-    <string name="install_done_title" msgid="4822989918460334497">"ರುಜುವಾತುಗಳನ್ನು ಸ್ಥಾಪಿಸಲಾಗಿದೆ"</string>
+    <string name="install_done_title" msgid="4822989918460334497">"ರುಜುವಾತುಗಳನ್ನು ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲಾಗಿದೆ"</string>
     <string name="install_done" msgid="1522718684172097080">"ವೈ-ಫೈ ಉಳಿಸಲಾದ ನೆಟ್‌ವರ್ಕ್‌ಗಳಿಗೆ <xliff:g id="NAME">%1$s</xliff:g> ರುಜುವಾತುಗಳನ್ನು ಸೇರಿಸಲಾಗಿದೆ."</string>
     <string name="done_label" msgid="5597425930652904250">"ಮುಗಿದಿದೆ"</string>
     <string name="wifi_installer_detail" msgid="63879632832701669">"<xliff:g id="NAME">%1$s</xliff:g> ಮೂಲಕ ಲಭ್ಯವಿರುವ ನೆಟ್‌ವರ್ಕ್‌ಗಳಿಗೆ ಸಂಪರ್ಕಪಡಿಸಲು ವೈ-ಫೈ ರುಜುವಾತುಗಳನ್ನು ಸ್ಥಾಪಿಸಿ."</string>
