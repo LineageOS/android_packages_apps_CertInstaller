@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "77ad502a_8f002737",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-01-03T02:27:51Z",
+      "side": 1,
+      "message": "tl;dr: Ricky\u0027s patchset was based on the correct HEAD under the assumption gerrit would be smart enough to ff the base repo.\n\nSomething went weird in the merge, so just merging it by hand.",
+      "revId": "c778789f94a8d27dee3572c82ea39cd106dab6b4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
