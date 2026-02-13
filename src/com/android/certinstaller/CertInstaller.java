@@ -414,7 +414,7 @@ public class CertInstaller extends Activity {
             return null;
         }
 
-        return appInfo.loadLabel(pm);
+        return appInfo.loadSafeLabel(pm);
     }
 
     private Dialog createRedirectCaCertificateDialog() {
